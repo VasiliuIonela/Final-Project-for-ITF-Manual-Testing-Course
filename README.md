@@ -15,13 +15,25 @@ enter the functional specifications created in JIRA
  # 1 Testing section
  
  ## 1.1 Test Planning
-This test plan is designed to access and verify the functionalities of existing modules in the role of manager, such as: the option of adding a new customer, but also to edit and delete a customer, the option of creating new account for a customer(this will automated generate a customer id which is used in other fields, as: edit and delete account), the option that creates a new account for one specified customer, by its customer id(which will automated generate an account no), the option of editing and deleting an account, by using the account number, the options that allow to deposit, withdraw and also transfer funds,  from  the Guru99 Bank Application. 
+This Test Plan is designed to access and verify the functionalities of existing modules in the role of manager, such as: the option of adding a new customer, but also to edit and delete a customer, the option of creating new account for a customer(this will automated generate a customer id which is used in other fields, as: edit and delete account), the option that creates a new account for one specified customer, by its customer id(which will automated generate an account no), the option of editing and deleting an account, by using the account number, the options that allow to deposit, withdraw and also transfer funds,  from  the Guru99 Bank Application. 
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
  
  ### 1.1.1 Roles asigned to the project and persons allocated
+ * Project manager:
+ * QA Lead:
+ * QA Tester:
  
  ### 1.1.2 Entry criteria defined
+ * All test hardware platform have been successfully instaled, configured and functioning properly.
+* All the necessary documentation, design and requirements information is available(that will allow testers to operate the system and judge the correct behaviour).
+* All the standard software tools, including the testing tools, have been successfully installed and functioning properly.
+* The test environment, such as lab, hardware, software and system administration support are ready.
+* roles needed for the project are allocated.
+* QA testers have completely understood the requirements.
+* Test scenarios, test cases were reviewed.
+* Initial project risks were detected and mitigated.
+
  
  ### 1.1.3 Exit criteria defined
  
