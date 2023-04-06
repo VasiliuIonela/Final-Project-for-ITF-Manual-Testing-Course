@@ -5,7 +5,7 @@ Application under test: https://demo.guru99.com/V4/index.php
  
  Documentation: https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit
  
- **The final project will be split into 2 sections:** [Testing section]() **and** [SQL section]().
+ **The final project will be split into 2 sections:** [Testing section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#1-testing-section) **and** [SQL section]().
  
  Tools used:
  
