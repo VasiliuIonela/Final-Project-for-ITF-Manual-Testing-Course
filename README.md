@@ -1,4 +1,4 @@
-# Final-Project-for-ITF-Manual-Testing-Course
+# Final-Project-for-ITF-Manual-Testing-Course Guru99 Bank application
 The scope of the final project for ITF Manual Tesing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
 
 Application under test: https://demo.guru99.com/V4/index.php
