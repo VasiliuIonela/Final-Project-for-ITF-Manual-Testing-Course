@@ -3,9 +3,7 @@ The scope of the final project for ITF Manual Tesing Course is to use all gained
 
 Application under test: https://demo.guru99.com/V4/index.php
  
- Documentation:
- 
- [application documentation used](https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit)
+ Documentation: https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit
  
  **The final project will be split into 2 sections:** [Testing section]() **and** [SQL section]().
  
