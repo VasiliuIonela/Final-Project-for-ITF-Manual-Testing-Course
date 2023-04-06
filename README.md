@@ -5,15 +5,19 @@ Application under test: https://demo.guru99.com/V4/index.php
  
  Documentation: https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit
  
- **The final project will be split into 2 sections:** [Testing section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#1-testing-section) **and** [SQL section]().
+ **The final project will be split into 2 sections:** [Testing section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#1-testing-section) **and** [SQL section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#2-sql-section).
  
- Tools used:
+ Tools used: JIRA
  
  # Functional specifications
+enter the functional specifications created in JIRA
  
  # 1 Testing section
  
  ## 1.1 Test Planning
+This test plan is designed to access and verify the functionalities of existing modules in the role of manager, such as: the option of adding a new customer, but also to edit and delete a customer, the option of creating new account for a customer(this will automated generate a customer id which is used in other fields, as: edit and delete account), the option that creates a new account for one specified customer, by its customer id(which will automated generate an account no), the option of editing and deleting an account, by using the account number, the options that allow to deposit, withdraw and also transfer funds,  from  the Guru99 Bank Application. 
+
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
  
  ### 1.1.1 Roles asigned to the project and persons allocated
  
