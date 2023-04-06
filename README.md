@@ -12,6 +12,7 @@ Application under test: https://demo.guru99.com/V4/index.php
 The below Story was created in JIRA and describes the functional specifications of the  role of Manager, for which the final project is performed upon.
 
 As a Manager, I want to be able to access customers account.
+
 **Description:**
 * The Manager account can be accessed after login.
 
@@ -21,8 +22,9 @@ As a Manager, I want to be able to access customers account.
 A customer can be deleted only if he/she has  no active current or saving accounts
 
 * A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts:
-* Saving
-* Current
+***Saving
+***Current
+
 A customer can have multiple saving accounts (one in his name , other in a joint name etc).
 
 He can have multiple current accounts for different companies he owns.
