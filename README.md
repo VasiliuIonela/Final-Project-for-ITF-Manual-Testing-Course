@@ -81,8 +81,19 @@ No QA support for mobile application developed. Automation testing is beyond sco
 
  ## 1.4 Test Design
  Functional test cases were creted in JIRA. Based on the analysis of the specifications, the test design techniques used for generatin test case are:
- ** Test cases:**
- 
+ **Test cases:** 
+ * Verify if the user may be able to login when valid data is used
+ * Verify if the user may be able to login when invalid data is used
+ * Verify system behaviour when user id and/or password are left in blank
+ * In the New Customer module, check system behaviour when all fields are filled with valid data.
+ * In the New Customer module, check system behaviour when introducting invalid data in Customer Name filed.
+* In the New Customer module, check system behaviour when introducting invalid data in the Date of birth field.
+* In the New Customer module, check system behaviour when introducing special characaters in the Adress field.
+* In the New Customer module, check system behaviour when one/more fields  are left in blank.
+* In the New Customer module, check system behaviour when introducing invalid data in the Pin field.
+* In the New Customer module, check system behaviour when introducing invalid data in the Email field.
+
+ Test cases with steps can be viewes here: [test_cases.pdf]().
  ## 1.5 Test Implementation
  
  ## 1.6 Test Execution
