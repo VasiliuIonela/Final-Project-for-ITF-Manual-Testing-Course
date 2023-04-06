@@ -36,6 +36,13 @@ The plan identifies the items to be tested, the features to be tested, the types
 
  
  ### 1.1.3 Exit criteria defined
+ * A certain level of requirements coverage has been achieved.
+ *  All tests have been executed.
+* No high priority or severe bugs are left outstanding.
+*  All resolved bugs have been re-tested and appoved bt the QA team.
+* All high-risk areas have been fully tested, with only minor residual risks left outstanding.
+* The schedule has been achieved.
+
  
  ### 1.1.4 Test scope
  
