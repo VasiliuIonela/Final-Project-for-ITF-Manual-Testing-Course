@@ -22,8 +22,9 @@ As a Manager, I want to be able to access customers account.
 A customer can be deleted only if he/she has  no active current or saving accounts
 
 * A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts:
-***Saving
-***Current
+
+***Saving***
+***Current***
 
 A customer can have multiple saving accounts (one in his name , other in a joint name etc).
 
