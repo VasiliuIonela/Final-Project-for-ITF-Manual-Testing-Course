@@ -28,21 +28,16 @@ A customer can be deleted only if he/she has  no active current or saving accoun
 ***Current***
 
 A customer can have multiple saving accounts (one in his name , other in a joint name etc). He can have multiple current accounts for different companies he owns. Or he can have a multiple current and saving accounts.
-* A manager can add a edit account details for an existing account.
-* A manager can add a delete an account for a customer.
-* A manager can deposit money into any account. Usually done when cash is deposited at a bank branch.
-* A manager can withdraw money from any account. Usually done when cash is withdrawn at a bank branch.
-* A manager can transfer funds from any source bank account to destination account.
-
-
-
-
-
-
-
- 
- # 1 Testing section
- 
+* A Manager can add a edit account details for an existing account.
+* A Manager can add a delete an account for a customer.
+* A Manager can deposit money into any account. Usually done when cash is deposited at a bank branch.
+* A Manager can withdraw money from any account. Usually done when cash is withdrawn at a bank branch.
+* A Manager can transfer funds from any source bank account to destination account.
+* A manager can change password of only his account. He cannot change passwords of his customers.
+* A manager can view balance of all the customers who come under his supervision.
+*  A manager can see mini-statement of any account. A Mini statement will show last 5 transactions of an account.
+*  A manager can see Customized -statement of any account. A customized statement allows you to filter and display transactions in an account based on date, transaction value. 
+ # 1 Testing section 
  ## 1.1 Test Planning
 This Test Plan is designed to access and verify the functionalities of existing modules in the role of manager, such as: the option of adding a new customer, but also to edit and delete a customer, the option of creating new account for a customer(this will automated generate a customer id which is used in other fields, as: edit and delete account), the option that creates a new account for one specified customer, by its customer id(which will automated generate an account no), the option of editing and deleting an account, by using the account number, the options that allow to deposit, withdraw and also transfer funds,  from  the Guru99 Bank Application. 
 
