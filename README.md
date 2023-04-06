@@ -9,7 +9,37 @@ Application under test: https://demo.guru99.com/V4/index.php
  
  Tools used: JIRA
  # Functional specifications
-enter the functional specifications created in JIRA
+The below Story was created in JIRA and describes the functional specifications of the  role of Manager, for which the final project is performed upon.
+
+As a Manager, I want to be able to access customers account.
+**Description:**
+* The Manager account can be accessed after login.
+
+* On the left you can see all the modules that Manager can access and modify.
+* A Manager can Add New Customer  by clicking on the New Customer module. You can also edit details like adress, email, telephone of a customer.
+* A Manager can Edit Customer and Delete Customer by using Customer ID. 
+A customer can be deleted only if he/she has  no active current or saving accounts
+
+* A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts:
+* Saving
+* Current
+A customer can have multiple saving accounts (one in his name , other in a joint name etc).
+
+He can have multiple current accounts for different companies he owns.
+
+Or he can have a multiple current and saving accounts.
+* A manager can add a edit account details for an existing account.
+* A manager can add a delete an account for a customer.
+* A manager can deposit money into any account. Usually done when cash is deposited at a bank branch.
+* A manager can withdraw money from any account. Usually done when cash is withdrawn at a bank branch.
+* A manager can transfer funds from any source bank account to destination account.
+
+
+
+
+
+
+
  
  # 1 Testing section
  
