@@ -1,9 +1,7 @@
 # Final-Project-for-ITF-Manual-Testing-Course
 The scope of the final project for ITF Manual Tesing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
 
-Application under test:
-
- [Guru99 Banking Project](https://demo.guru99.com/V4/index.php)
+Application under test: https://demo.guru99.com/V4/index.php
  
  Documentation:
  
