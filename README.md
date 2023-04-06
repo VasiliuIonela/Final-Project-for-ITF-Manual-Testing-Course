@@ -46,9 +46,10 @@ The plan identifies the items to be tested, the features to be tested, the types
  
  ### 1.1.4 Test scope
  
- * Tests in scope:
- 
- * Tests out of scope:
+ * Tests in scope: The scope of this project is limited to the testing of the features in the succeeding sections of this document.
+Functional testing  are in scope and needed to be tested.
+ * Tests out of scope: Non-functional testing like performance, security testing is beyond scope of this project.
+No QA support for mobile application developed. Only web applications will be tested.
  
  ### 1.1.5 Risks detected
  
