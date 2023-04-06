@@ -58,10 +58,27 @@ No QA support for mobile application developed. Automation testing is beyond sco
  ### 1.1.6 Evaluating entry criteria
  The entry criteria defined in the Test Planning phase have been achieved and the test process can copntinue.
  
- ## 1.2 Test Monitorig an Control
+ ## 1.2 Test Monitorig and Control
+ Periodic reports were generated to reflect the current status of the testing process, in case of major problems, control measures could be taken.
  
  ## 1.3 Test Analysis
- 
+ The testing process will be executed, based  on the requirements  sent by the client, for the account of Manager modules. The following test conditions were found:
+ * When user id and password are valid, the user may be able to login: check the login functionality.
+ * When  module New Customer is selected, check the  Add New Customer functionality .
+* When module Edit Customer is selected, check if the system   allows  to generate a customer id.
+* When module Delete Customer is selected, check if the system allows  to delete a customer, by using its customer id. 
+* When module New Account is selected, check if the system allows to add a new account for an existing customer.
+* When module Edit Account is selected, check if the system allows to edit account details for an existing account.
+* When module Delete Account is selected, check if the system allows to delete an accoungt for a customer.
+* When module Deposit is selected, check if the system allows to deposit money into any account.
+* When module Withdrawal is selected, check if the system allows to withdraw money from any account.
+* When module Fund Transfer is selected, check if the system allows to transfer funds from any source bank account to destination account.
+* When module Change Passsword is selected, check if the system allows to generate new password only for own account.
+* When module Balance Enquiry is selected, check if the system allows to view balance of all the customers who came under supervision.
+* When module Mini Statement is selected, check if the system allows to show last 5 transactions of any account.
+* When module Customized Statement is selected, check if the system allows to filter and display transactions in any account based on date, transaction value. 
+* Check the functionality of the button Logout
+
  ## 1.4 Test Design
  
  ## 1.5 Test Implementation
