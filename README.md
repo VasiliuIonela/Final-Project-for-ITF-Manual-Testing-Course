@@ -24,13 +24,10 @@ A customer can be deleted only if he/she has  no active current or saving accoun
 * A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts:
 
 ***Saving***
+
 ***Current***
 
-A customer can have multiple saving accounts (one in his name , other in a joint name etc).
-
-He can have multiple current accounts for different companies he owns.
-
-Or he can have a multiple current and saving accounts.
+A customer can have multiple saving accounts (one in his name , other in a joint name etc). He can have multiple current accounts for different companies he owns. Or he can have a multiple current and saving accounts.
 * A manager can add a edit account details for an existing account.
 * A manager can add a delete an account for a customer.
 * A manager can deposit money into any account. Usually done when cash is deposited at a bank branch.
