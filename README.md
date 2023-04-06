@@ -9,5 +9,5 @@ Application under test:
  
  [application documentation used](https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit)
  
- ** The final project will be split into 2 sections: [Tesing section]() and [SQL section]()
+ **The final project will be split into 2 sections: [Tesing section]() and [SQL section]()
  
