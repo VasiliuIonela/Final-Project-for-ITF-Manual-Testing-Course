@@ -47,17 +47,16 @@ The plan identifies the items to be tested, the features to be tested, the types
  ### 1.1.4 Test scope
  
  * Tests in scope: The scope of this project is limited to the testing of the features in the succeeding sections of this document.
-Functional testing  are in scope and needed to be tested.
+Functional testing  are in scope and needed to be tested.  Only web applications will be tested.
  * Tests out of scope: Non-functional testing like performance, security testing is beyond scope of this project.
-No QA support for mobile application developed. Only web applications will be tested.
+No QA support for mobile application developed. Automation testing is beyond scope.	
  
  ### 1.1.5 Risks detected
  
- * Project risks:
- 
- * Product risks:
- 
+ * Project risks: the development team wont’t have the necessary training for these tasks, the database won’t support such a high volume of dates, short deadline, not-compliance with the rules regulated in the banking field, sick personnel, too little team members, too little team members, misunderstanding of the requirements. 
+ * Product risks: Security risk-data leak, low performance of the Guru99 bank application, not having customer’s requests, appplication will crash. 
  ### 1.1.6 Evaluating entry criteria
+ The entry criteria defined in the Test Planning phase have been achieved and the test process can copntinue.
  
  ## 1.2 Test Monitorig an Control
  
