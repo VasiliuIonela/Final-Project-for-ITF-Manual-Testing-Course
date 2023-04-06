@@ -8,7 +8,6 @@ Application under test: https://demo.guru99.com/V4/index.php
  **The final project will be split into 2 sections:** [Testing section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#1-testing-section) **and** [SQL section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#2-sql-section).
  
  Tools used: JIRA
- 
  # Functional specifications
 enter the functional specifications created in JIRA
  
