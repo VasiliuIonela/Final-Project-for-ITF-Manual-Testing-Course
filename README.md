@@ -68,7 +68,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Project risks: the development team wont’t have the necessary training for these tasks, the database won’t support such a high volume of dates, short deadline, not-compliance with the rules regulated in the banking field, sick personnel, too little team members, too little team members, misunderstanding of the requirements. 
  * Product risks: Security risk-data leak, low performance of the Guru99 bank application, not having customer’s requests, appplication will crash. 
  ### 1.1.6 Evaluating entry criteria
- The entry criteria defined in the Test Planning phase have been achieved and the test process can copntinue.
+ The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
   ## 1.2 Test Monitorig and Control
  Periodic reports were generated to reflect the current status of the testing process, in case of major problems, control measures could be taken.
   ## 1.3 Test Analysis
