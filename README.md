@@ -11,7 +11,7 @@ Application under test: https://demo.guru99.com/V4/index.php
  # Functional specifications
 The below Story was created in JIRA and describes the functional specifications of the  role of Manager, for which the final project is performed upon.
 
-As a Manager, I want to be able to access customers account.
+As a Manager, I want to be able to access all customers account.
 
 **Description:**
 * The Manager account can be accessed after login.
