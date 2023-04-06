@@ -1,5 +1,5 @@
 # Final-Project-for-ITF-Manual-Testing-Course Guru99 Bank application
-The scope of the final project for ITF Manual Tesing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
+The scope of the final project for ITF Manual Tesing Course is to use all gained knowledge through the course and apply them in practice, using a live application.
 
 Application under test: https://demo.guru99.com/V4/index.php
  
@@ -15,10 +15,9 @@ As a Manager, I want to be able to access all customers account.
 
 **Description:**
 * The Manager account can be accessed after login.
-* On the left you can see all the modules that Manager can access and modify.
-* A Manager can Add New Customer  by clicking on the New Customer module. You can also edit details like adress, email, telephone of a customer.
-* A Manager can Edit Customer and Delete Customer by using Customer ID. 
-A customer can be deleted only if he/she has  no active current or saving accounts
+* On the left you can see all the modules that Manager can access and edit.
+* A Manager can Add New Customer  by clicking on the New Customer module. He can also edit details like adress, email, telephone of a customer.
+* A Manager can Edit Customer and Delete Customer by using Customer ID. A customer can be deleted only if he/she has  no active current or saving accounts.
 * A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts:
 
 ***Saving***
@@ -26,7 +25,7 @@ A customer can be deleted only if he/she has  no active current or saving accoun
 ***Current***
 
 A customer can have multiple saving accounts (one in his name , other in a joint name etc). He can have multiple current accounts for different companies he owns. Or he can have a multiple current and saving accounts.
-* A Manager can add a edit account details for an existing account.
+* A Manager can add an edit account details for an existing account.
 * A Manager can add a delete an account for a customer.
 * A Manager can deposit money into any account. Usually done when cash is deposited at a bank branch.
 * A Manager can withdraw money from any account. Usually done when cash is withdrawn at a bank branch.
@@ -37,7 +36,7 @@ A customer can have multiple saving accounts (one in his name , other in a joint
 *  A manager can see Customized -statement of any account. A customized statement allows you to filter and display transactions in an account based on date, transaction value. 
  # 1 Testing section 
  ## 1.1 Test Planning
-This Test Plan is designed to access and verify the functionalities of existing modules in the role of manager, such as: the option of adding a new customer, but also to edit and delete a customer, the option of creating new account for a customer(this will automated generate a customer id which is used in other fields, as: edit and delete account), the option that creates a new account for one specified customer, by its customer id(which will automated generate an account no), the option of editing and deleting an account, by using the account number, the options that allow to deposit, withdraw and also transfer funds,  from  the Guru99 Bank Application. 
+This Test Plan is designed to access and verify the functionalities of existing modules in the role of Manager, such as: the option of adding a new customer, but also to edit and delete a customer, the option of creating new account for a customer(this will automated generate a customer id which is used in other fields, as: edit and delete account), the option that creates a new account for one specified customer, by its customer id(which will automated generate an account no), the option of editing and deleting an account, by using the account number, the options that allow to deposit, withdraw and also transfer funds,  from  the Guru99 Bank Application. 
 
 The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. 
  ### 1.1.1 Roles asigned to the project and persons allocated
