@@ -77,9 +77,11 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * When module Balance Enquiry is selected, check if the system allows to view balance of all the customers who came under supervision.
 * When module Mini Statement is selected, check if the system allows to show last 5 transactions of any account.
 * When module Customized Statement is selected, check if the system allows to filter and display transactions in any account based on date, transaction value. 
-* Check the functionality of the button Logout
+* Check the functionality of the button Logout.
 
  ## 1.4 Test Design
+ Functional test cases were creted in JIRA. Based on the analysis of the specifications, the test design techniques used for generatin test case are:
+ ** Test cases:**
  
  ## 1.5 Test Implementation
  
