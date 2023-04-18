@@ -38,7 +38,7 @@ The plan identifies the items to be tested, the features to be tested, the types
  ### 1.1.1 Roles asigned to the project and persons allocated
  * Project manager:
  * QA Lead:
- * QA Tester: 
+ * QA Tester: Ionela Vasiliu
  ### 1.1.2 Entry criteria defined
  * All test hardware platform have been successfully instaled, configured and functioning properly.
 * All the necessary documentation, design and requirements information is available(that will allow testers to operate the system and judge the correct behaviour).
@@ -86,7 +86,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * Check the functionality of the button Logout.
 
  ## 1.4 Test Design
- Functional test cases were creted in JIRA. Based on the analysis of the specifications, the test design techniques used for generatin test case are:
+ Functional test cases were creted in JIRA. Based on the analysis of the specifications, the test design techniques used for generating test case are:
  
  **Test cases:** 
  * Verify if the user may be able to login when valid data is used
