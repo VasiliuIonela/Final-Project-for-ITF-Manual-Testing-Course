@@ -18,11 +18,7 @@ As a Manager, I want to be able to access all customers account.
 * On the left you can see all the modules that Manager can access and edit.
 * A Manager can Add New Customer  by clicking on the New Customer module. He can also edit details like adress, email, telephone of a customer.
 * A Manager can Edit Customer and Delete Customer by using Customer ID. A customer can be deleted only if he/she has  no active current or saving accounts.
-* A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts:
-
-***Saving***
-
-***Current***
+* A Manager can Add new account for an existing Customer. Currently system provides 2 types of accounts: ***Saving*** and  ***Current***
 
 A customer can have multiple saving accounts (one in his name , other in a joint name etc). He can have multiple current accounts for different companies he owns. Or he can have a multiple current and saving accounts.
 * A Manager can add an edit account details for an existing account.
