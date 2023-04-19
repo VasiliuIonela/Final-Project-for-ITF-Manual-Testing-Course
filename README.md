@@ -102,7 +102,18 @@ No QA support for mobile application developed. Automation testing is beyond sco
 
  Test cases with steps can be viewes here: [test_cases.pdf]().
  ## 1.5 Test Implementation 
+ The following elements are needed to be ready before the test execution phase begins:
+
+* Testing environment is up and running:  https://demo.guru99.com/V4/index.php 
+* Access to the testing environment is given: Username : mngr493941  | Password : YsYvyba
+* Cycle summary was created
+* Test cases were added to the cycle summary
+
  ## 1.6 Test Execution 
+ * Test cases are executed on the created test Cycle summary:
+ * Bugs have been created based on the failed tests. The complete bug reports can be found here:
+ * Full regression testing is needed after the bugs are fixed
  ## 1.7 Test Completion 
+ 
  # 2 SQL section
  
