@@ -7,7 +7,7 @@ Application under test: https://demo.guru99.com/V4/index.php
  
  **The final project will be split into 2 sections:** [Testing section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#1-testing-section) **and** [SQL section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#2-sql-section).
  
- Tools used: JIRA
+ Tools used: JIRA, Zephyr Squad.
  # Functional specifications
 The below Story was created in JIRA and describes the functional specifications of the  role of Manager, for which the final project is performed upon.
 
