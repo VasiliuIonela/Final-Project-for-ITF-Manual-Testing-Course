@@ -99,7 +99,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * Verify that Manager can delete account form for an existing customer, by using its account number
 * Verify that a Manager can deposit money into any account.
 
- Test cases with steps can be viewes here: [test_cases.pdf]().
+ Test cases with steps can be viewes here: [test_cases](https://docs.google.com/spreadsheets/d/1ofxRgH47y4j9weSqSTBlmjeJh_g5X8Eg/edit#gid=349785068).
  ## 1.5 Test Implementation 
  The following elements are needed to be ready before the test execution phase begins:
 
