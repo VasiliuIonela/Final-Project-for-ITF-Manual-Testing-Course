@@ -100,6 +100,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Bugs have been created based on the failed tests. The complete bug reports can be found here:
  * Full regression testing is needed after the bugs are fixed.
  ## 1.7 Test Completion 
- 
+ One of the critical outcomes of the Test Completion phase is the test completion report. This report is the summary of all the testing efforts which execute during the testing process. The completion report is a crucial input to the stakeholders to determine the amount of testing accomplished. In addition to that, it also analyzes the unattended risks and issues. It helps them to make informed decisions about the software.
+
  # 2 SQL section
  
