@@ -66,6 +66,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
   ## 1.3 Test Analysis
  The testing process will be executed, based  on the requirements  sent by the client, for the account of Manager modules. The following test conditions were found:
  * When user id and password are valid, the user may be able to login: check the login functionality.
+ * Check the reset button.
  * When  module New Customer is selected, check the  Add New Customer functionality .
 * When module Edit Customer is selected, check if the system   allows  to generate a customer id.
 * When module Delete Customer is selected, check if the system allows  to delete a customer, by using its customer id. 
@@ -85,16 +86,6 @@ No QA support for mobile application developed. Automation testing is beyond sco
  Functional test cases were created in JIRA. Based on the analysis of the specifications, the test design techniques used for generating test case are:
  
  **Test cases:** 
-* Verify that a user can log in to the system using valid username and password
-* Verify that a user can blank fields by pressing the reset button
-* Verify that a Manager can add a new customer
-* Verify that Manager can edit customer form by using its customer id
-* Verify that Manager can delete an existing customer by using its customer id
-* Verify that Manager can add  a new account form to an existing customer, by using its customer id
-* Verify that Manager can add a edit account details for an existing account, by using its account number
-* Verify that Manager can delete account form for an existing customer, by using its account number
-* Verify that a Manager can deposit money into any account.
-
  Test cases with steps can be viewes here: [test_cases](https://docs.google.com/spreadsheets/d/1ofxRgH47y4j9weSqSTBlmjeJh_g5X8Eg/edit#gid=349785068).
  ## 1.5 Test Implementation 
  The following elements are needed to be ready before the test execution phase begins:
