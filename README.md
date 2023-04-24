@@ -40,14 +40,10 @@ The plan identifies the items to be tested, the features to be tested, the types
  * QA Lead:
  * QA Tester: Ionela Vasiliu
  ### 1.1.2 Entry criteria defined
- * All test hardware platform have been successfully instaled, configured and functioning properly.
-* All the necessary documentation, design and requirements information is available(that will allow testers to operate the system and judge the correct behaviour).
-* All the standard software tools, including the testing tools, have been successfully installed and functioning properly.
-* The test environment, such as lab, hardware, software and system administration support are ready.
 * roles needed for the project are allocated.
-* QA testers have completely understood the requirements.
-* Test scenarios, test cases were reviewed.
 * Initial project risks were detected and mitigated. 
+* functional specifications are defined.
+
  ### 1.1.3 Exit criteria defined
  * A certain level of requirements coverage has been achieved.
  *  All tests have been executed.
@@ -86,7 +82,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * Check the functionality of the button Logout.
 
  ## 1.4 Test Design
- Functional test cases were creted in JIRA. Based on the analysis of the specifications, the test design techniques used for generating test case are:
+ Functional test cases were created in JIRA. Based on the analysis of the specifications, the test design techniques used for generating test case are:
  
  **Test cases:** 
 * Verify that a user can log in to the system using valid username and password
