@@ -64,19 +64,19 @@ No QA support for mobile application developed. Automation testing is beyond sco
   ## 1.2 Test Monitorig and Control
  Periodic reports were generated to reflect the current status of the testing process, in case of major problems, control measures could be taken.
   ## 1.3 Test Analysis
- The testing process will be executed, based  on the requirements  sent by the client, for the account of Manager modules. The following test conditions were found:
+ The testing process will be executed, based  on the requirements  sent by the client, for the account of Manager modules. The following **test conditions** were found:
  * When user id and password are valid, the user may be able to login: check the login functionality.
  * Check the reset button.
  * When  module New Customer is selected, check the  Add New Customer functionality .
-* When module Edit Customer is selected, check if the system   allows  to generate a customer id.
-* When module Delete Customer is selected, check if the system allows  to delete a customer, by using its customer id. 
+* When module Edit Customer is selected, check if the system   allows  to edit customer details by using its customer id.
+* When module Delete Customer is selected, check if the system allows  to delete a customer, by using its customer id, only if customer has no account. 
 * When module New Account is selected, check if the system allows to add a new account for an existing customer.
 * When module Edit Account is selected, check if the system allows to edit account details for an existing account.
-* When module Delete Account is selected, check if the system allows to delete an accoungt for a customer.
+* When module Delete Account is selected, check if the system allows to delete an account for a customer.
 * When module Deposit is selected, check if the system allows to deposit money into any account.
 * When module Withdrawal is selected, check if the system allows to withdraw money from any account.
 * When module Fund Transfer is selected, check if the system allows to transfer funds from any source bank account to destination account.
-* When module Change Passsword is selected, check if the system allows to generate new password only for own account.
+* When module Change Passsword is selected, check if the system allows to generate new password, only for own account.
 * When module Balance Enquiry is selected, check if the system allows to view balance of all the customers who came under supervision.
 * When module Mini Statement is selected, check if the system allows to show last 5 transactions of any account.
 * When module Customized Statement is selected, check if the system allows to filter and display transactions in any account based on date, transaction value. 
@@ -98,7 +98,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
  ## 1.6 Test Execution 
  * Test cases are executed on the created test Cycle summary:
  * Bugs have been created based on the failed tests. The complete bug reports can be found here:
- * Full regression testing is needed after the bugs are fixed
+ * Full regression testing is needed after the bugs are fixed.
  ## 1.7 Test Completion 
  
  # 2 SQL section
