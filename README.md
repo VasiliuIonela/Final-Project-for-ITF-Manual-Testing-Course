@@ -65,14 +65,31 @@ No QA support for mobile application developed. Automation testing is beyond sco
  Periodic reports were generated to reflect the current status of the testing process, in case of major problems, control measures could be taken.
   ## 1.3 Test Analysis
  The testing process will be executed, based  on the requirements  sent by the client, for the account of Manager modules. The following **test conditions** were found:
- * When user id and password are valid, the user may be able to login: check the login functionality.
- * Check the reset button.
- * When  module New Customer is selected, check the  Add New Customer functionality .
+ * Check the login functionality when valid data is entered.
+ * Check the login functionality when invalid user id or password is entered.
+ * Check the reset button functionality.
+ * When  module New Customer is selected, check the  Add New Customer functionality.
+ * Check the Submit button functionality when valid data is entered.
+ * Check the Submit button functionalit ywhen fileds are left in blank.
+ * Check the Submit button functionality when invalid data are engtered in one or more fields.
+ * Check the Reset button functionality.
 * When module Edit Customer is selected, check if the system   allows  to edit customer details by using its customer id.
-* When module Delete Customer is selected, check if the system allows  to delete a customer, by using its customer id, only if customer has no account. 
+* Check the Submit button functionality when valid customer id is entered.
+* Check the Submit button functionality when field is lef in blank.
+* Check the Submit button functionalithy when invalid customer id is entered.
+* check if the system allows  to delete a customer, by using its customer id, only if customer has no account. 
+* Check the Submit button functionality when valid customer id is entered and has no account.
+* Check the Submit button functionality when valid customer id is entered and has one or more accounts
 * When module New Account is selected, check if the system allows to add a new account for an existing customer.
+* Check the Submit button functionality when valid data is entered.
+*  Check the Submit button functionality when invalid data is entered.
 * When module Edit Account is selected, check if the system allows to edit account details for an existing account.
+*  Check the Submit button functionality when valid number account is entered.
+*  Check the Submit button functionality when filed is left blank.
+*  Check the Submit button functionality when invalid number account is entered.
 * When module Delete Account is selected, check if the system allows to delete an account for a customer.
+*  Check the Submit button functionality when valid account number is entered.
+*  Check the Submit button functionality when invalid number account is entered.
 * When module Deposit is selected, check if the system allows to deposit money into any account.
 * When module Withdrawal is selected, check if the system allows to withdraw money from any account.
 * When module Fund Transfer is selected, check if the system allows to transfer funds from any source bank account to destination account.
