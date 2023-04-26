@@ -68,9 +68,9 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Check the login functionality when valid data is entered.
  * Check the login functionality when invalid user id or password is entered.
  * Check the reset button functionality.
- * When  module New Customer is selected:
+ **When  module New Customer is selected:**
  * Check the Submit button functionality when valid data is entered.
- *  Check the Submit button functionality when invalid data is entered.
+ * Check the Submit button functionality when invalid data is entered.
  * Check the Submit button functionality when fileds are left in blank.
  * Check the system response when numbers are entered in 'Customer Name' field.
  * Check the system response when special characters are entered in 'Customer name' field.
@@ -102,21 +102,25 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Check the system response when invalid  email is entered.
  * Check the system response when first character is 'space' in the "Email' field.
  * Check the Reset button functionality.
-* When module Edit Customer is selected, check if the system   allows  to edit customer details by using its customer id.
+**When module Edit Customer is selected:** 
+* Check if the system   allows  to edit customer details by using its customer id.
 * Check the Submit button functionality when valid customer id is entered.
-* Check the Submit button functionality when field is lef in blank.
-* Check the Submit button functionalithy when invalid customer id is entered.
+* Check the Submit button functionality when field is left in blank.
+* Check the Submit button functionalithy when charcaters are entered in customer id field.
 * check if the system allows  to delete a customer, by using its customer id, only if customer has no account. 
 * Check the Submit button functionality when valid customer id is entered and has no account.
 * Check the Submit button functionality when valid customer id is entered and has one or more accounts
-* When module New Account is selected, check if the system allows to add a new account for an existing customer.
+**When module New Account is selected:**
+* check if the system allows to add a new account for an existing customer.
 * Check the Submit button functionality when valid data is entered.
 *  Check the Submit button functionality when invalid data is entered.
-* When module Edit Account is selected, check if the system allows to edit account details for an existing account.
+**When module Edit Account is selected:**
+* check if the system allows to edit account details for an existing account.
 *  Check the Submit button functionality when valid number account is entered.
 *  Check the Submit button functionality when filed is left blank.
 *  Check the Submit button functionality when invalid number account is entered.
-* When module Delete Account is selected, check if the system allows to delete an account for a customer.
+**When module Delete Account is selected:**
+* check if the system allows to delete an account for a customer.
 *  Check the Submit button functionality when valid account number is entered.
 *  Check the Submit button functionality when invalid number account is entered.
 * When module Deposit is selected, check if the system allows to deposit money into any account.
