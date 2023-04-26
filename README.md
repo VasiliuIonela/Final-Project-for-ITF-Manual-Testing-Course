@@ -68,10 +68,39 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Check the login functionality when valid data is entered.
  * Check the login functionality when invalid user id or password is entered.
  * Check the reset button functionality.
- * When  module New Customer is selected, check the  Add New Customer functionality.
+ * When  module New Customer is selected:
  * Check the Submit button functionality when valid data is entered.
- * Check the Submit button functionalit ywhen fileds are left in blank.
- * Check the Submit button functionality when invalid data are engtered in one or more fields.
+ *  Check the Submit button functionality when invalid data is entered.
+ * Check the Submit button functionality when fileds are left in blank.
+ * Check the system response when numbers are entered in 'Customer Name' field.
+ * Check the system response when special characters are entered in 'Customer name' field.
+ * Check the system response when first charcater is 'space' in the 'Customer Name' field.
+ * Check the system response when 'Customer name' field is left in blank.
+ * Check the system response when special characters are entered in 'Adress' field.
+ * Check the system response when first character is'space' in 'Adress' field.
+ * Check the system response when field 'Adress' is left in blank.
+ * Check the system response when special characters are entered in 'City' field.
+ * Check the system response when 'City' field is left in blank.
+ * Check the system response when first character is 'space' in 'City' field.
+ * Check the system response when numbers are entered in 'City' field.
+ * Check the system response when numbers are entered in 'State' field.
+ * Check the system response when 'State field' is left in blank.
+ * Check the system response when special characters are entered in 'State' field.
+ * Check the system response when first character is'space' in 'State' field.
+ * Check the system response when characters are entered in 'Pin' field.
+ * Check the system response when 'Pin' filed is left in blank.
+ * Check the system response when special characters are entered in 'Pin' field.
+ * Check the system response when  less than 6 digits are entered in'Pin' field.
+ * Check the system response when more than 6 digits are entered in ' Pin' field.
+ * Check the system response when first character is 'space' in 'Pin' field.
+ * Check the system response when 'Telephone number' field is left in  blank.
+ * Check the system response when special characters are entered in 'Telephone number' field.
+ * Check the system response when characters are entered in 'Telephone number' field.
+ * Check the system response when first character is 'space' in 'Telephone number' field.
+ * Check the system response when less/more digits are entered in the 'Telephone number' field.
+ * Check the system response when 'Email id' field is left in blank.
+ * Check the system response when invalid  email is entered.
+ * Check the system response when first character is 'space' in the "Email' field.
  * Check the Reset button functionality.
 * When module Edit Customer is selected, check if the system   allows  to edit customer details by using its customer id.
 * Check the Submit button functionality when valid customer id is entered.
