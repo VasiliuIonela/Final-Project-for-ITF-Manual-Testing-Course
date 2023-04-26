@@ -68,7 +68,7 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Check the login functionality when valid data is entered.
  * Check the login functionality when invalid user id or password is entered.
  * Check the reset button functionality.
- * 
+ 
  **When  module New Customer is selected:**
  * Check the Submit button functionality when valid data is entered.
  * Check the Submit button functionality when invalid data is entered.
@@ -109,32 +109,88 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * Check the Submit button functionality when valid customer id is entered.
 * Check the Submit button functionality when field is left in blank.
 * Check the Submit button functionalithy when charcaters are entered in customer id field.
-* check if the system allows  to delete a customer, by using its customer id, only if customer has no account. 
+**When module Detele Customer is selected:**
 * Check the Submit button functionality when valid customer id is entered and has no account.
 * Check the Submit button functionality when valid customer id is entered and has one or more accounts.
+* Check the system response  when field ' Customer id' is left in blank.
+* Check the system response when first character is 'space' in 'Customer id' field.
+* Check the system response when characters are entered in 'Customer id' field.
+* Check the system response when special characters are entered in 'Customer id' field.
 
 **When module New Account is selected:**
 * check if the system allows to add a new account for an existing customer.
 * Check the Submit button functionality when valid data is entered.
 *  Check the Submit button functionality when invalid data is entered.
+*  Check the system response when 'Customer id' field is left in blank.
+*  Check the system response when special characters are entered in 'Customer id' field.
+*  Check the system response when characters are entered in 'Customer id' field.
+*  Check the system response when first character is'space' in 'Customer id' field.
 
 **When module Edit Account is selected:**
 * check if the system allows to edit account details for an existing account.
 *  Check the Submit button functionality when valid number account is entered.
-*  Check the Submit button functionality when filed is left blank.
+*  Check the Submit button functionality when field is left blank.
 *  Check the Submit button functionality when invalid number account is entered.
+*  Check the system response when characters are entered in the field.
+*  Check the system response when special characters are entered in the field.
+*  
 
 **When module Delete Account is selected:**
-* check if the system allows to delete an account for a customer.
+* check if the system allows to delete an account for an existing customer.
 *  Check the Submit button functionality when valid account number is entered.
 *  Check the Submit button functionality when invalid number account is entered.
-* When module Deposit is selected, check if the system allows to deposit money into any account.
-* When module Withdrawal is selected, check if the system allows to withdraw money from any account.
-* When module Fund Transfer is selected, check if the system allows to transfer funds from any source bank account to destination account.
-* When module Change Passsword is selected, check if the system allows to generate new password, only for own account.
-* When module Balance Enquiry is selected, check if the system allows to view balance of all the customers who came under supervision.
-* When module Mini Statement is selected, check if the system allows to show last 5 transactions of any account.
-* When module Customized Statement is selected, check if the system allows to filter and display transactions in any account based on date, transaction value. 
+*  Check the system response when characters are entered in the field.
+*  Check the system response when when field is left in blank.
+*  Check the system response when special characters are entered in the field.
+
+**When module Deposit is selected:**
+* Check if the system allows to deposit money into any account.
+* Check the submit functionality when valid data is enetered.
+* Check the submit functionality when invalid data is entered.
+* Check the system response when characters are entered in the 'Account no' field.
+*  Check the system response when special characters are entered in the 'Account no'  field.
+*  Check the system response when field 'Account no' is left in blank.
+*  Check the system response when 'Amount' field is left in blank.
+*  Check the system response when special characters are entered in 'Amount' field.
+*  Check the system response when characters are entered in 'Amount' field.
+*  Cheeck the system respone when field 'Description' is left in blank.
+
+**When module Withdrawal is selected:**
+* Check if the system allows to withdraw money from any account.
+*  Check the submit functionality when valid data is enetered.
+* Check the submit functionality when invalid data is entered.
+* Check the system response when characters are entered in the 'Account no' field.
+*  Check the system response when special characters are entered in the 'Account no'  field.
+*  Check the system response when field 'Account no' is left in blank.
+*  Check the system response when 'Amount' field is left in blank.
+*  Check the system response when special characters are entered in 'Amount' field.
+*  Check the system response when characters are entered in 'Amount' field.
+*  Cheeck the system respone when field 'Description' is left in blank.
+
+**When module Fund Transfer is selected:**///
+* Check if the system allows to transfer funds from any source bank account to destination account.
+
+**When module Change Passsword is selected:**///
+*  check if the system allows to generate new password, only for own account.
+
+**When module Balance Enquiry is selected:**
+* Check if the system allows to view balance of all the customers who came under supervision.
+* Check the system response when valid number account is entered.
+* Check the system response when invalid number account is entered.
+* Check the system response when field is left in blank.
+* Check the system response when special characters are entered in the field.
+* Check the system response when  characters are entered in the field.
+
+**When module Mini Statement is selected:**
+*  Check if the system allows to show last 5 transactions of any account.
+*  Check the system response when valid number account is entered.
+*  Check the system response when invladi number account is entered.
+*  Check the system response when field is left in blank.
+*  Check the system response when characters are entered in the field.
+*  Check the system response when special characters are entered in the field.
+
+**When module Customized Statement is selected:**////
+* Check if the system allows to filter and display transactions in any account based on date, transaction value. 
 * Check the functionality of the button Logout.
 
  ## 1.4 Test Design
