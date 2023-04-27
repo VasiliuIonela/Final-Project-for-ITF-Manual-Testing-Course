@@ -73,57 +73,33 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Check the Submit button functionality when valid data is entered.
  * Check the Submit button functionality when invalid data is entered.
  * Check the Submit button functionality when fileds are left in blank.
- * Check the system response when numbers are entered in 'Customer Name' field.
- * Check the system response when special characters are entered in 'Customer name' field.
- * Check the system response when first charcater is 'space' in the 'Customer Name' field.
- * Check the system response when 'Customer name' field is left in blank.
- * Check the system response when special characters are entered in 'Adress' field.
- * Check the system response when first character is'space' in 'Adress' field.
- * Check the system response when field 'Adress' is left in blank.
- * Check the system response when special characters are entered in 'City' field.
- * Check the system response when 'City' field is left in blank.
- * Check the system response when first character is 'space' in 'City' field.
- * Check the system response when numbers are entered in 'City' field.
- * Check the system response when numbers are entered in 'State' field.
- * Check the system response when 'State field' is left in blank.
- * Check the system response when special characters are entered in 'State' field.
- * Check the system response when first character is'space' in 'State' field.
+ * Check the system response when special characters are entered.
+ * Check the system response when first character is 'space'.
  * Check the system response when characters are entered in 'Pin' field.
- * Check the system response when 'Pin' filed is left in blank.
- * Check the system response when special characters are entered in 'Pin' field.
  * Check the system response when  less than 6 digits are entered in'Pin' field.
- * Check the system response when more than 6 digits are entered in ' Pin' field.
- * Check the system response when first character is 'space' in 'Pin' field.
- * Check the system response when 'Telephone number' field is left in  blank.
- * Check the system response when special characters are entered in 'Telephone number' field.
+ * Check the system response when more than 6 digits are entered in ' Pin' field..
  * Check the system response when characters are entered in 'Telephone number' field.
- * Check the system response when first character is 'space' in 'Telephone number' field.
  * Check the system response when less/more digits are entered in the 'Telephone number' field.
- * Check the system response when 'Email id' field is left in blank.
- * Check the system response when invalid  email is entered.
- * Check the system response when first character is 'space' in the "Email' field.
  * Check the Reset button functionality.
+ * Check the system response when a date of birth in the future is entered.
  
 **When module Edit Customer is selected:** 
 * Check if the system   allows  to edit customer details by using its customer id.
 * Check the Submit button functionality when valid customer id is entered.
 * Check the Submit button functionality when field is left in blank.
-* Check the Submit button functionalithy when charcaters are entered in customer id field.
+* Check the Submit button functionalithy when characters are entered in customer id field.
 **When module Detele Customer is selected:**
 * Check the Submit button functionality when valid customer id is entered and has no account.
 * Check the Submit button functionality when valid customer id is entered and has one or more accounts.
 * Check the system response  when field ' Customer id' is left in blank.
 * Check the system response when first character is 'space' in 'Customer id' field.
-* Check the system response when characters are entered in 'Customer id' field.
-* Check the system response when special characters are entered in 'Customer id' field.
+* Check the system response when invalid data is entered in 'Customer id' field.
 
 **When module New Account is selected:**
 * check if the system allows to add a new account for an existing customer.
 * Check the Submit button functionality when valid data is entered.
 *  Check the Submit button functionality when invalid data is entered.
 *  Check the system response when 'Customer id' field is left in blank.
-*  Check the system response when special characters are entered in 'Customer id' field.
-*  Check the system response when characters are entered in 'Customer id' field.
 *  Check the system response when first character is'space' in 'Customer id' field.
 
 **When module Edit Account is selected:**
@@ -131,41 +107,24 @@ No QA support for mobile application developed. Automation testing is beyond sco
 *  Check the Submit button functionality when valid number account is entered.
 *  Check the Submit button functionality when field is left blank.
 *  Check the Submit button functionality when invalid number account is entered.
-*  Check the system response when characters are entered in the field.
-*  Check the system response when special characters are entered in the field.
-*  
 
 **When module Delete Account is selected:**
 * check if the system allows to delete an account for an existing customer.
 *  Check the Submit button functionality when valid account number is entered.
 *  Check the Submit button functionality when invalid number account is entered.
-*  Check the system response when characters are entered in the field.
 *  Check the system response when when field is left in blank.
-*  Check the system response when special characters are entered in the field.
 
 **When module Deposit is selected:**
 * Check if the system allows to deposit money into any account.
 * Check the submit functionality when valid data is enetered.
 * Check the submit functionality when invalid data is entered.
-* Check the system response when characters are entered in the 'Account no' field.
-*  Check the system response when special characters are entered in the 'Account no'  field.
-*  Check the system response when field 'Account no' is left in blank.
-*  Check the system response when 'Amount' field is left in blank.
-*  Check the system response when special characters are entered in 'Amount' field.
-*  Check the system response when characters are entered in 'Amount' field.
-*  Cheeck the system respone when field 'Description' is left in blank.
+* Check the system response when fields are left in blank.
 
 **When module Withdrawal is selected:**
 * Check if the system allows to withdraw money from any account.
 *  Check the submit functionality when valid data is enetered.
 * Check the submit functionality when invalid data is entered.
-* Check the system response when characters are entered in the 'Account no' field.
-*  Check the system response when special characters are entered in the 'Account no'  field.
-*  Check the system response when field 'Account no' is left in blank.
-*  Check the system response when 'Amount' field is left in blank.
-*  Check the system response when special characters are entered in 'Amount' field.
-*  Check the system response when characters are entered in 'Amount' field.
-*  Cheeck the system respone when field 'Description' is left in blank.
+*  Check the system response when fields are left in blank.
 
 **When module Fund Transfer is selected:**///
 * Check if the system allows to transfer funds from any source bank account to destination account.
@@ -178,16 +137,12 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * Check the system response when valid number account is entered.
 * Check the system response when invalid number account is entered.
 * Check the system response when field is left in blank.
-* Check the system response when special characters are entered in the field.
-* Check the system response when  characters are entered in the field.
 
 **When module Mini Statement is selected:**
 *  Check if the system allows to show last 5 transactions of any account.
 *  Check the system response when valid number account is entered.
-*  Check the system response when invladi number account is entered.
+*  Check the system response when invalid number account is entered.
 *  Check the system response when field is left in blank.
-*  Check the system response when characters are entered in the field.
-*  Check the system response when special characters are entered in the field.
 
 **When module Customized Statement is selected:**////
 * Check if the system allows to filter and display transactions in any account based on date, transaction value. 
