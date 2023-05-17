@@ -70,24 +70,25 @@ No QA support for mobile application developed. Automation testing is beyond sco
  * Check the reset button functionality.
  
  **When  module New Customer is selected:**
- * Check the Submit button functionality when valid data is entered.
- * Check the Submit button functionality when invalid data is entered.
- * Check the Submit button functionality when fileds are left in blank.
- * Check the system response when special characters are entered.
- * Check the system response when first character is 'space'.
- * Check the system response when characters are entered in 'Pin' field.
- * Check the system response when  less than 6 digits are entered in'Pin' field.
- * Check the system response when more than 6 digits are entered in ' Pin' field..
- * Check the system response when characters are entered in 'Telephone number' field.
- * Check the system response when less/more digits are entered in the 'Telephone number' field.
- * Check the Reset button functionality.
- * Check the system response when a date of birth in the future is entered.
+
+ * Check if a Manager is able to add a new customer when valid data is entered.
+ *  Check if a Manager is able to add a new customer when invalid data is entered.
+ *  Check if a Manager is able to add a new customer when fields are left in blank.
+ *  Check if a Manager is able to add a new customer when special characters are entered into the fields.
+ *   Check if a Manager is able to add a new customer when valid first character entered into fields is 'space'.
+ *   Check if a Manager is able to add a new customer when characters are entered into 'Pin' field.
+ * Check if a Manager is able to add a new customer when   less than 6 digites are entered into 'Pin' field.
+ * Check if a Manager is able to add a new customer when   moere than 6 digites are entered into 'Pin' field.
+ *  Check if a Manager is able to add a new customer when characters are entered into 'Telephone number' field.   
+ *   Check if a Manager is able to use the reset button functionality.
+ *   Check if a Manager is able to add a new customer when a date of birth in the future is entered into the specific field.
  
 **When module Edit Customer is selected:** 
-* Check if the system   allows  to edit customer details by using its customer id.
-* Check the Submit button functionality when valid customer id is entered.
-* Check the Submit button functionality when field is left in blank.
-* Check the Submit button functionalithy when characters are entered in customer id field.
+* Check if  a Manager is able to edit customer details when valid customer id is entered.
+* Check if  a Manager is able to edit customer details when invalid customer id is entered.
+* Check if  a Manager is able to edit customer details when field is left in blank.
+* Check if  a Manager is able to edit customer details when characters are entered into the customer id field.
+
 **When module Detele Customer is selected:**
 * Check the Submit button functionality when valid customer id is entered and has no account.
 * Check the Submit button functionality when valid customer id is entered and has one or more accounts.
