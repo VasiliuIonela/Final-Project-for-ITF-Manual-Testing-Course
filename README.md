@@ -65,9 +65,11 @@ No QA support for mobile application developed. Automation testing is beyond sco
  Periodic reports were generated to reflect the current status of the testing process, in case of major problems, control measures could be taken.
   ## 1.3 Test Analysis
  The testing process will be executed, based  on the requirements  sent by the client, for the account of Manager modules. The following **test conditions** were found:
- * Check the login functionality when valid data is entered.
- * Check the login functionality when invalid user id or password is entered.
- * Check the reset button functionality.
+ 
+ * Check if a user is able to login into Manager role, when valid data is entered.
+ * Check if a user is able to login into Manager role, when invalid data is entered.
+ * Check if a user can Logout form application.
+ * Check if a user is able to access "reset" buton functionality.
  
  **When  module New Customer is selected:**
 
@@ -90,64 +92,59 @@ No QA support for mobile application developed. Automation testing is beyond sco
 * Check if  a Manager is able to edit customer details when characters are entered into the customer id field.
 
 **When module Detele Customer is selected:**
-* Check the Submit button functionality when valid customer id is entered and has no account.
-* Check the Submit button functionality when valid customer id is entered and has one or more accounts.
-* Check the system response  when field ' Customer id' is left in blank.
-* Check the system response when first character is 'space' in 'Customer id' field.
-* Check the system response when invalid data is entered in 'Customer id' field.
+* Check if a Manager is able to delete customer when valid customer id is entered and has no account.
+* Check if a Manager is able to delete customer when valid customer id is entered and has an existing account.
+*  Check if a Manager is able to delete customer when invalid customer id is entered.
+*   Check if a Manager is able to delete customer when customer id is left in blank.
 
 **When module New Account is selected:**
-* check if the system allows to add a new account for an existing customer.
-* Check the Submit button functionality when valid data is entered.
-*  Check the Submit button functionality when invalid data is entered.
-*  Check the system response when 'Customer id' field is left in blank.
-*  Check the system response when first character is'space' in 'Customer id' field.
+* Check is a Manager is able to add new account for an existing customer.
+* Check is a Manager is able to add new account for a customer that doesn't exist.
+* Check is a Manager is able to add new account when fields are left in blank.
 
 **When module Edit Account is selected:**
-* check if the system allows to edit account details for an existing account.
-*  Check the Submit button functionality when valid number account is entered.
-*  Check the Submit button functionality when field is left blank.
-*  Check the Submit button functionality when invalid number account is entered.
+* Check if a Manager is able to edit account details for an existing account.
+* Check is a Manager is able to edit account details when invalid data is entered into the field.
+*  Check is a Manager is able to edit account details when characters are entered into the field.
 
 **When module Delete Account is selected:**
-* check if the system allows to delete an account for an existing customer.
-*  Check the Submit button functionality when valid account number is entered.
-*  Check the Submit button functionality when invalid number account is entered.
-*  Check the system response when when field is left in blank.
+* Check if a Manager is able to delete an account for an existing customer by using a valid account number.
+* Check if a Manager is able to delete an account for an existing customer by using an invalid account number.
+* Check if a Manager is able to delete an account for an existing customer when field is left in blank.
 
 **When module Deposit is selected:**
-* Check if the system allows to deposit money into any account.
-* Check the submit functionality when valid data is enetered.
-* Check the submit functionality when invalid data is entered.
-* Check the system response when fields are left in blank.
+* Check if a manager is able to deposit money into any account, when valid data is entered.
+* Check if a manager is able to deposit money into any account, when valid data is entered.
+* Check if a manager is able to deposit money into any account, when fields are left in blank.
 
 **When module Withdrawal is selected:**
-* Check if the system allows to withdraw money from any account.
-*  Check the submit functionality when valid data is enetered.
-* Check the submit functionality when invalid data is entered.
-*  Check the system response when fields are left in blank.
+* Check if a Manager is able to withdraw money from any account, when valid data is entered.
+*  Check if a Manager is able to withdraw money from any account, when invalid data is entered.
+* Check if a Manager is able to withdraw money from any account, when fields are left in blank.
 
-**When module Fund Transfer is selected:**///
-* Check if the system allows to transfer funds from any source bank account to destination account.
+**When module Fund Transfer is selected:**
+* Check if a Manager is able to transfer funds from any source bank account to a destination account, when valid data is entered.
+* Check if a Manager is able to transfer funds from any source bank account to a destination account, when invalid data is entered.
 
-**When module Change Passsword is selected:**///
-*  check if the system allows to generate new password, only for own account.
+
+**When module Change Passsword is selected:**
+* Check if a Manager is able to generate new password for his own account.
+* Check if a Manager is able to change password for an existing account of a customer.
 
 **When module Balance Enquiry is selected:**
-* Check if the system allows to view balance of all the customers who came under supervision.
-* Check the system response when valid number account is entered.
-* Check the system response when invalid number account is entered.
-* Check the system response when field is left in blank.
+* Check if a Manager is able to iew balance for a customer who came under supervision, by using valid account number.
+* Check if a Manager is able to iew balance for a customer who came under supervision, by using invalid account number.
+* Check if a Manager is able to iew balance for a customer who came under supervision, when field is left in blank.
 
 **When module Mini Statement is selected:**
-*  Check if the system allows to show last 5 transactions of any account.
-*  Check the system response when valid number account is entered.
-*  Check the system response when invalid number account is entered.
-*  Check the system response when field is left in blank.
+* Check if  a Manager is able to access last 5 transactions of any account when valid number account is entered.
+* Check if  a Manager is able to access last 5 transactions of any account when invalid number account is entered.
+*  Check if  a Manager is able to access last 5 transactions of any account when field is left in blank.
 
-**When module Customized Statement is selected:**////
-* Check if the system allows to filter and display transactions in any account based on date, transaction value. 
-* Check the functionality of the button Logout.
+**When module Customized Statement is selected:**
+* Check if a Manager is able to filter transactions in any account based on date, transaction value.
+* Check if a Manager is able to display transactions in any account based on date, transaction value.
+
 
  ## 1.4 Test Design
  Functional test cases were created in JIRA. Based on the analysis of the specifications, the test design techniques used for generating test case are:
