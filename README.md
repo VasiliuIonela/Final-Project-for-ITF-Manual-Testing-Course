@@ -168,3 +168,8 @@ No QA support for mobile application developed. Automation testing is beyond sco
 
  # 2 SQL section
  
+In MySQL, I have created the following: 
+* DATABASE sportvision_store
+  * tables: users, products, user_wishlist, product_reviews
+Performed different queries inside the sql file:[sportvision_store]().
+
