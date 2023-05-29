@@ -1,13 +1,13 @@
 # Final-Project-for-ITF-Manual-Testing-Course Guru99 Bank application
 The scope of the final project for ITF Manual Tesing Course is to use all gained knowledge through the course and apply them in practice, using a live application.
 
-Application under test: https://demo.guru99.com/V4/index.php
+Application under test: [guru99Bank](https://demo.guru99.com/V4/index.php).
  
- Documentation: https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit
+ Documentation: [doc](https://docs.google.com/document/d/1rPW5DV82VJT6vtA1VDSrfxaCBuAduxW0zb1yfTh_VMk/edit).
  
  **The final project will be split into 2 sections:** [Testing section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#1-testing-section) **and** [SQL section](https://github.com/VasiliuIonela/Final-Project-for-ITF-Manual-Testing-Course/blob/main/README.md#2-sql-section).
  
- Tools used: JIRA, Zephyr Squad.
+ Tools used: JIRA, Zephyr Squad, mySQL.
  # Functional specifications
 The below Story was created in JIRA and describes the functional specifications of the  role of Manager, for which the final project is performed upon.
 
@@ -45,7 +45,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 * functional specifications are defined.
 
  ### 1.1.3 Exit criteria defined
- * A certain level of requirements coverage has been achieved.
+ * 80% of requirements coverage has been achieved.
  *  All tests have been executed.
 * No high priority or severe bugs are left outstanding.
 *  All resolved bugs have been re-tested and appoved bt the QA team.
@@ -57,8 +57,8 @@ Functional testing  are in scope and needed to be tested.  Only web applications
  * Tests out of scope: Non-functional testing like performance, security testing is beyond scope of this project.
 No QA support for mobile application developed. Automation testing is beyond scope. 
  ### 1.1.5 Risks detected 
- * Project risks: the development team wont’t have the necessary training for these tasks, the database won’t support such a high volume of dates, short deadline, not-compliance with the rules regulated in the banking field, sick personnel, too little team members, too little team members, misunderstanding of the requirements. 
- * Product risks: Security risk-data leak, low performance of the Guru99 bank application, not having customer’s requests, appplication will crash. 
+ * Project risks: the development team wont’t have the necessary training for these tasks, the database won’t support such a high volume of data, short deadline, not-compliance with the rules regulated in the banking field, sick personnel,few team members, misunderstanding of the requirements. 
+ * Product risks: Security risk-data leak, low performance of the Guru99 bank application, not having requests for using such bank application, appplication may crash. 
  ### 1.1.6 Evaluating entry criteria
  The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
   ## 1.2 Test Monitorig and Control
